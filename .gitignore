@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
@@ -31,3 +32,23 @@
 #spring-cloud 
 application.yml
 bootstrap.yml
+=======
+*.class
+bootstrap.yml
+*.log
+*.project
+.settings/
+*.settings
+target/
+templates/
+static/
+refs/
+objects/
+info/
+hooks/
+branches/
+config
+description
+HEAD
+
+>>>>>>> 80caced628adbf6f4d1dd19227c728a91cc83e68
