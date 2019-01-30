@@ -1,0 +1,13 @@
+server:
+  port: 10040
+
+spring:
+  application:
+    name: im-hystrix-dashboard
+  profiles:
+    include: consul
+
+feign:
+  hystrix:
+    enabled: true
+

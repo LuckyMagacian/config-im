@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8400
+      discovery:
+        register-health-check: true
+management:
+  endpoint:
+    health:
+      show-details: always
+      enabled: true
